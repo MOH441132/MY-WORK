@@ -1,0 +1,371 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F1F1F1;
+}
+
+.sec-text {
+    margin-top: 48px;
+    text-align: center;
+    width: 100%;
+}
+
+.main-sec {
+    /* text-align: center; */
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.left-side {
+    width: 65%;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.main-sec h1 {
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 0.5;
+}
+
+.sec-text p {
+    margin-top: 21px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    line-height: 0.5;
+}
+
+.bg-black {
+    background-color: #000;
+    color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.card-1 {
+    /* position: relative;
+    right: 18%;
+    top: 0px;
+    bottom: 0px;
+    display: inline-block;
+    width: 60%;
+    height: auto;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    -webkit-box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.75);
+    text-align: left;
+    margin-left: 20px; */
+    box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.75);
+    padding-bottom: 10px;
+}
+
+.card-image {
+    width: 100%;
+}
+
+.title {
+    margin-top: 10px;
+    text-align: left;
+    padding: 5px 20px;
+}
+
+.sub-title {
+    margin-top: 10px;
+    text-align: left;
+    padding: 5px 20px;
+}
+
+.card-description {
+    margin-top: 30px;
+    text-align: justify;
+    padding: 5px 20px;
+}
+
+.card-1-btn {
+    width: 120px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.card-1-btn:hover {
+    cursor: pointer;
+    background-color: gray;
+    border: none;
+}
+
+
+/* my work */
+
+.card-2 {
+    /* display: inline-block;
+    position: relative;
+    left: -8px;
+    top: -480px;
+    bottom: 0px;
+    width: 60%;
+    height: auto;
+    text-align: left;
+    padding-bottom: 10px; */
+    /* -webkit-box-shadow: 1px 2px 12px 5px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 1px 2px 12px 5px rgba(0, 0, 0, 0.54); */
+    box-shadow: 1px 2px 12px 5px rgba(0, 0, 0, 0.54);
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+
+.card-3 {
+    /* display: inline-block;
+    position: relative;
+    top: -520px;
+    right: -1%;
+    width: 33.33333%;
+    height: auto;
+    padding-bottom: 10px; */
+    width: 30%;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.text-co2 {
+    margin-top: 10px;
+}
+
+.title2 {
+    margin-top: 10px;
+    text-align: left;
+    padding: 5px 20px;
+}
+
+.sup-tit2 {
+    margin-top: 10px;
+    text-align: left;
+    padding: 5px 20px;
+}
+
+.dis-tit2 {
+    margin-top: 10px;
+    text-align: justify;
+    padding: 5px 20px;
+}
+
+.card-2-image {
+    width: 100%;
+    max-width: 100%
+}
+
+.card-2-btn {
+    width: 130px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.card-2-btn:hover {
+    cursor: pointer;
+    background-color: gray;
+    border: none;
+}
+
+.card-3-imag {
+    width: 100%;
+    height: auto;
+}
+
+.tit3 {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.dis-tit3 {
+    margin-top: 25px;
+    text-align: justify;
+    padding: 5px 20px;
+}
+
+.card-3A {
+    background-color: #ffffff;
+    line-height: 1.5;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card-4A {
+    position: relative;
+    top: -15px;
+    text-align: left;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    padding-bottom: 10p
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.card-4A img {
+    float: left;
+    clear: left;
+    width: 50px;
+}
+
+.B {
+    margin-top: 60px;
+    height: 50px;
+}
+
+h4 {
+    height: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.C {
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: "Raleway", sans-serif;
+    box-sizing: inherit;
+    list-style-type: none;
+    color: #000!important;
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff!important;
+}
+
+.d:hover {
+    background-color: rgb(175, 175, 175);
+}
+
+.E {
+    margin-left: 10px;
+}
+
+.d {
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: "Raleway", sans-serif;
+    list-style-type: none;
+    color: #000!important;
+    box-sizing: inherit;
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-5 {
+    position: relative;
+    top: -15px;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: "Raleway", sans-serif;
+    color: #000!important;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    margin-top: 50px;
+}
+
+.tit5 {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.count {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    line-height: 2.5;
+    background-color: #fff!important;
+    padding-left: 5px;
+}
+
+.c1 {
+    background-color: #000;
+    color: #F1F1F1;
+    padding: 5px;
+}
+
+.c2 {
+    display: inline-block;
+    color: #393838;
+    font-size: 12px;
+    background-color: #d7d5d5;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+
+footer {
+    font-size: 15px;
+    height: 150px;
+    padding: 0.01em 16px;
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
+    color: #fff!important;
+    background-color: #616161!important;
+}
+
+.card-6-btn {
+    position: relative;
+    top: -10px;
+    right: 10px;
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.card-6-btn:hover {
+    cursor: pointer;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+
+.card-6-btn2 {
+    position: relative;
+    top: -70px;
+    left: -9%;
+    right: 10px;
+    background-color: rgb(86, 82, 82);
+    color: rgb(161, 151, 151);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 10px;
+    font-size: 15px;
+    border: none;
+}
+
+.card-6-btn2:hover {
+    cursor: no-drop;
+    color: #4a4949;
+    background-color: rgb(120, 114, 114);
+    border: none;
+}
