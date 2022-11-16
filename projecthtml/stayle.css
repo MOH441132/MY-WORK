@@ -1,0 +1,440 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar
+{
+    height: 100%;
+}
+.navbar-collapse
+{
+    flex-grow: unset;
+}
+ul
+{
+    list-style-type: none;
+}
+ul img{
+    width: 15px;
+    margin-right: 10px;
+}
+.nav_glo{
+    background: #001e57;
+    color: white;
+    width: 124px;
+    height: 49%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* align-content: center; */
+    margin-top: 8px;
+}
+.nav_glo:hover{
+    color: white;
+}
+.dropdown-menu{
+    background-color: rgb(39, 37, 37);
+}
+.dropdown-item{
+    color: white;
+}
+.dropdown-item:hover{
+    background-color:#df6512;
+    color: white;
+    transform: 1sec
+    ;
+}
+.row a
+{
+    color: black;
+}
+.col_1
+{
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    justify-content: space-around;
+
+}
+.col_1 img
+{
+    width: 100%;
+    height: 100%;
+}
+.col_2
+{
+    
+    display: flex;
+    border-right: solid 1px black;
+    align-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.col_1 p{
+    margin-top: 18px;
+    color: #3e3e89;
+    font-size: 37px;
+}
+.card-image{
+    width: 50px;
+}
+.titel{
+    margin-bottom: 0px;
+}
+.sec-2{
+    margin-top: 26px;
+    margin-bottom: 37px;
+}
+.img{
+    height: 400px;
+}
+.row-lea{
+    width: 100%;
+    }
+.tat{
+    font-size: 50px;
+    color: rgb(1, 1, 78);
+    margin-left: 30px;
+}
+.des{
+    
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 40px;
+    text-align: justify;
+    
+}
+.ooo{
+    margin-left: 40px;
+}
+.card{
+    height: 177px;
+    width: 245px;
+}
+.col-card{
+    margin: 20px 10px;
+    width: 30px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.card-body a{
+  text-decoration: none;
+}
+.tattt{
+    font-size: 52px;
+    color: #222;
+    font-weight: 300;
+    line-height: 1.2em; 
+    text-align: center;
+    margin: 60px 0px 0px 15px;
+}
+.row_no{
+    margin-top: 70px;
+}
+.col-no-row{
+    text-align: center;
+}
+.sce-6{
+    margin-bottom: 150px;
+}
+.tat1{
+    font-size: 30px;
+    color: rgb(1, 1, 78);
+    margin-left: 30px;
+}
+.text-container{
+    margin-top: 20px;
+}
+.text-container a 
+{
+text-decoration: none;
+}
+.text-container a:hover 
+{
+    text-decoration: underline;
+
+}
+.text-container h4  :hover
+{
+    color: #df6512;
+}
+.card-1-btn,
+.card-1-btn2,
+.card-1-btn-3
+{
+    border: none;
+    background-color: white;
+     position: relative;
+    color: #555;
+    font-weight: 700;
+    font-size: 14px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: underline;
+    
+}
+
+.card-1-btn:hover{
+    transition: all 1s ease;
+    color: #df6512;
+}
+.card-1-btn-3{
+    display: flex;
+    color: #df6512;
+}
+.card-body-1{
+    margin-top: 20px;
+}
+.card-text {
+    margin-top: 20px;
+}
+.row-img1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card-title a{
+    text-decoration: none;
+}
+.card-title a:hover{
+    color: #df6512;
+    text-decoration: underline;
+    transition: all 1s ease;
+}
+.sec-7{
+    background-image: url(assete/img/service-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    height: 500px;
+    margin-bottom: 50px;
+    
+}
+.proj{
+    position: relative;
+    top: 50px;
+    margin-left: 100px;
+    max-width: 450px;
+    background-color: white;
+    height: 350px;
+    padding: 16px;
+}
+.proj hr{
+    width: 100px;
+}
+.star dl{
+    align-items: flex-end;
+    list-style-type: none;
+    display: flex;
+}
+.star dd{
+    position: relative;
+    top: 39px;
+    right: 53px;
+    
+}
+.star dd a{
+    text-decoration: none;
+    color: black;
+}
+.star dd a:hover{
+color: #df6512;
+text-decoration: underline;
+transition: all 1s ease;
+}
+
+.star img{
+   
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+}
+.para{
+    margin-top: 60px;
+}
+.right-img img{
+    width: 20px;
+
+}
+.person{
+    position: absolute;
+    left: 940px;
+    border: #df6512 solid 8px;
+    width: 400px;
+}
+.stor{
+    position: relative;
+    top: 90px;
+    left: px;
+    height: 80%;
+}
+.sec-9{
+    padding-top: 50px;
+    height: 566px;
+    background-color: rgb(12, 12, 124);
+    margin-bottom: 70px;
+}
+.sec-9 hr{
+    width: 100px;
+    color:#df6512; 
+    height: 10px;
+}
+.sec-9 h1,
+.sec-9 p
+{
+    color: white;
+}
+
+.row-form{
+    margin-top: 50px;
+
+}
+#floatingInput5{
+    height: 118px;
+}
+.forms{
+    border:solid 1px rgb(86, 93, 148);
+    background-color: rgb(65, 65, 161) ;
+    width: 300px;
+    height: 52px;
+}
+.forms:hover{
+    border:solid 1px #df6512 !important;
+}
+.sum{
+    color: white;
+    border: none;
+    background-color: #df6512;;
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+}
+.sum:hover{
+    
+    background-color: rgb(26, 21, 21);
+    transition: all 1s ease;
+}
+.client{
+    text-align: center;
+}
+.client hr{
+    width: 60px;
+    margin: 0px auto;
+    color: #df6512;
+}
+.mySwiper{
+    height: 400px;
+    width: 100%;
+}
+.row_sec10{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.text{
+    padding: 50px;
+    background-color: rgb(238, 237, 237);
+    text-align: center;
+}
+.row_sec10 img{
+    margin-top: 30px;
+    margin-left: 27px;
+}
+.location,
+.name{
+    position: relative;
+    top: -51px;
+    left: 84px;
+}
+footer{
+    padding-top: 100px;
+    height: 600px;
+    background-color: rgb(9, 9, 37);
+}
+footer hr{
+    width: 50px;
+    color: #fa6400;
+    margin-left: 30px;
+}
+footer h2{
+    color: white;
+    margin-left: 25px;
+}
+footer p{
+    
+    color: rgb(202, 199, 199);
+}
+
+.foot-p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+   
+
+}
+.btfot{
+    background-color:rgb(1, 1, 56);
+    height: 63px;
+    width: 188px;
+border: solid 1px rgb(202, 199, 199);;
+    color: rgb(202, 199, 199);
+}
+.btfot:hover{
+    background-color:#df6512;
+   border: none;
+ transition: all 1s ease;    
+ color: white;
+}
+.services{
+    list-style-type: none;
+}
+.services a{
+    text-decoration: none;
+    margin-top: 30px;
+    color: rgb(202, 199, 199);
+    
+}
+.services a:hover{
+    text-decoration: underline;
+    color: white;
+    
+}
+.services li{
+    margin-top: 10px;
+    
+}
+.img_foot{
+    width: 90px;
+    height: 60px;
+    position: relative;
+    right:20px;
+    top: 20px;
+}
+.card_foot h5,
+.card_foot p{
+   
+    position: relative;
+    top: -47px;
+    right: -81px;
+    
+}
+.card_foot a{
+    text-decoration: none;
+    color: rgb(202, 199, 199);
+}
+.card_foot a:hover{
+    color: #df6512;
+    transition: all 1s ease;
+}
+.hr-end{
+    color: lightslategrey;
+    width: 100%;
+    position: relative;
+    right:30px;
+}
